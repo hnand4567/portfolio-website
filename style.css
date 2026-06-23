@@ -1,8 +1,32 @@
+/* ==========================================
+   UPDATE CHECKLIST
+
+   Hero:
+   - Name
+   - Major
+   - LinkedIn
+   - GitHub
+   - Resume
+
+   Projects:
+   - Research Project
+   - Spotify Data Science Project
+   - Web Development Project
+
+   Experience:
+   - Perry Research Assistant
+   - CCSC NW Conference Presenter
+   - Abraham Research Assistant
+
+   Last Updated: June 2026
+   ========================================== */
+
+/*Makes the page scroll smoothly when clicking on anchor links*/
 html {
     scroll-behavior: smooth;
 }
 
-/* GLOBAL */
+/* GLOBAL STYLES (applied across the entire page) */
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -11,23 +35,26 @@ body {
     line-height: 1.6;
 }
 
-/* HERO */
+/* HERO SECTION*/
 .hero {
     text-align: center;
     padding: 80px 20px;
     background-color: #ffffff;
 }
 
+/*Main page heading (my name)*/
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
+/* Subtitle (my profession) */
 .subtitle {
     font-size: 1.2rem;
     color: #4b5563;
 }
 
+/* Tagline (a brief personal description of myself) */
 .tagline {
     max-width: 600px;
     margin: 20px auto;
@@ -54,6 +81,7 @@ body {
     padding: 0 20px;
 }
 
+/*Section headings (like "Projects" and "About Me")*/
 .section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
@@ -74,15 +102,18 @@ body {
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
+/* Project title */
 .card h3 {
     margin-top: 0;
 }
 
+/* Technologies used */
 .tech {
     font-size: 0.9rem;
     color: #6b7280;
 }
 
+/* Project links and descriptions */
 .card a {
     display: inline-block;
     margin-top: 10px;
@@ -91,6 +122,7 @@ body {
     font-weight: 500;
 }
 
+/* Underline links on hover */
 .card a:hover {
     text-decoration: underline;
 }
